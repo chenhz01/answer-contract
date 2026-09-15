@@ -1,5 +1,12 @@
 # answer-contract
 
+> **Part of the Evidence-first Agents suite** — tooling that makes AI agents
+> accountable instead of just capable: [answer-contract](https://github.com/chenhz01/answer-contract)
+> (output discipline) · [skill-spec](https://github.com/chenhz01/skill-spec)
+> (spec discipline) · [memory-wiki](https://github.com/chenhz01/memory-wiki)
+> (memory discipline). Same author, same zero-dependency philosophy.
+
+
 **The output-discipline layer for AI coding agents.** Four rules that stop your agent from padding, rambling, and shipping one mediocre answer.
 
 `Implicit-Need Fill` · `Structured Output` · `3-Option-Plus-Premium` · `Assumption-Circuit-Breaker`
