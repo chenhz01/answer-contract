@@ -4,7 +4,8 @@
 > accountable instead of just capable: [answer-contract](https://github.com/chenhz01/answer-contract)
 > (output discipline) · [skill-spec](https://github.com/chenhz01/skill-spec)
 > (spec discipline) · [memory-wiki](https://github.com/chenhz01/memory-wiki)
-> (memory discipline). Same author, same zero-dependency philosophy.
+> (memory discipline) · [skill-os](https://github.com/chenhz01/skill-os)
+> (the assembly line). Same author, same zero-dependency philosophy.
 
 
 **The output-discipline layer for AI coding agents.** Four rules that stop your agent from padding, rambling, and shipping one mediocre answer.
