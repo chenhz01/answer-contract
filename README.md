@@ -1,10 +1,14 @@
 # answer-contract
 
-**Four rules that stop your AI agent from padding, rambling, and shipping one mediocre answer.**
+**The output-discipline layer for AI coding agents.** Four rules that stop your agent from padding, rambling, and shipping one mediocre answer.
 
 `Implicit-Need Fill` · `Structured Output` · `3-Option-Plus-Premium` · `Assumption-Circuit-Breaker`
 
-A single-file skill for coding agents (Claude Code, Codex, OpenCode, Pi, and anything that reads `SKILL.md`). Works as a standalone output contract — and composes well with style-level skills like [i-have-adhd](https://github.com/ayghri/i-have-adhd): that skill shapes sentences, this one shapes documents and decisions.
+[i-have-adhd](https://github.com/ayghri/i-have-adhd) shapes your agent's *sentences*; answer-contract shapes its *documents and decisions*. Install both and the whole output chain is covered.
+
+A single-file skill for coding agents (Claude Code, Codex, OpenCode, Pi, and anything that reads `SKILL.md`). Works as a standalone output contract — and composes well with style-level skills.
+
+This is not a style preference. Anthropic's own Claude Code system prompt enforces the same discipline at harness level — "Lead with the outcome"; "Being readable and being concise are different things, and readable matters more"; outcomes reported faithfully. Your agent already wants these rules. This skill makes them explicit and auditable.
 
 ## Why
 
@@ -52,6 +56,8 @@ Prompt: *"Write a Xiaohongshu (RED) promo post for a regional specialty noodle b
 
 ## Install (60 seconds)
 
+Single file. Zero dependencies. No telemetry, no network calls, no background processes — your prompts and outputs never leave your machine.
+
 Copy `SKILL.md` into your agent's skills directory:
 
 ```bash
@@ -61,6 +67,14 @@ cp answer-contract/SKILL.md ~/.claude/skills/answer-contract/SKILL.md   # Claude
 ```
 
 Then invoke with `/four-rules`, or add a one-line reference to your `CLAUDE.md` / `AGENTS.md`. Turn it off anytime with "stop four rules".
+
+## Authorship
+
+Produced through human-AI collaboration: the rules and worked cases were drafted by an AI coding agent, then reviewed, edited, and approved by a human maintainer before release. The evidence is executed, not claimed — the code-case table is real script stdout from the same session.
+
+## Status
+
+Actively maintained — small, regular releases. See [CHANGELOG](CHANGELOG.md). On the roadmap: vertical adaptation packs for copywriting and decision-memo workflows (delivered via collaboration, see [COLLABORATION.md](docs/COLLABORATION.md)).
 
 ## Honest boundary
 
