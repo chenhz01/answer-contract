@@ -1,5 +1,23 @@
 # answer-contract
 
+> **Four rules that stop your AI agent from padding every answer**
+
+
+
+## Install (one line)
+```bash
+见仓内说明
+```
+
+## Why not X?
+（见下方原文档）
+
+Topics: `prompt-engineering` · `agent-skills` · `output-quality` · `rules` · `skmd`
+
+---
+
+# answer-contract
+
 > **Part of the Evidence-first Agents suite** — tooling that makes AI agents
 > accountable instead of just capable: [answer-contract](https://github.com/chenhz01/answer-contract)
 > (output discipline) · [skill-spec](https://github.com/chenhz01/skill-spec)
